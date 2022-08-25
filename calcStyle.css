@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategrey;
+}
+
+#fundoCalculadora{
+    width: 800px;
+    height: 800px;
+    border-radius: 50px;
+    background-color:blueviolet;
+}
+
+.botaoCalc{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    color:black;
+    font-size: 35pt;
+    background-color: white;
+    margin-top: 120pt;
+    margin-left: 15pt;
+}
