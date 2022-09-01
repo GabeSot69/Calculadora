@@ -5,26 +5,47 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:darkslategrey;
 }
 
 #fundoCalculadora{
-    width: 800px;
+    width: 500px;
     height: 800px;
     border-radius: 50px;
-    background-color:blueviolet;
+    background-color:black;
+}
+
+#campoCalculadora{
+    width:500px;
+    height: 100px;
+    border-bottom: solid;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px ;
+    background-color: black;
+    border-bottom-color: purple;
+    
+}
+
+#botaoClear{
+    margin-left: 300pt;
+    color: purple;
+}
+
+#botaoAllClear{
+    color: purple;
 }
 
 .botaoCalc{
     width: 100px;
     height: 100px;
-    border-radius: 50px;
-    color:black;
+    color:white;
     font-size: 35pt;
-    background-color: white;
-    margin-top: 120pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: black;
+    margin-top: 10pt;
     margin-left: 15pt;
+    
 }
