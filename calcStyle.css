@@ -38,10 +38,15 @@ body{
     color: purple;
 }
 
+#botaoIgual{
+    background-color: purple;
+}
+
 .botaoCalc{
     width: 100px;
     height: 100px;
     color:white;
+    border-radius: 90px;
     font-size: 35pt;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background-color: black;
